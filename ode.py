@@ -55,6 +55,7 @@ strm = ax1.streamplot(theta_0_mesh, theta_dot_0_mesh, theta_dot_0_mesh, theta_do
 cbar = plt.colorbar(strm.lines, ax=ax1)
 cbar.ax.get_yaxis().labelpad = -26
 cbar.ax.set_ylabel('rad/$s^2$', rotation=270)
+
 line0_1, = ax0.plot([], [])
 line0_2, = ax0.plot([], [])
 line1, = ax1.plot([], [], c='lime')
